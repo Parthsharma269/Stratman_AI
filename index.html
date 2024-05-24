@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stratman AI</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-logo" href="./assets/images/Title-Logo.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header class="py-4 position-relative" id="Home">
+        <div class="Container_1 header-bg-img">
+            <nav class=" d-flex align-items-center justify-content-between py-3">
+                <div class="cursor"><img src="./assets/images/Title-Logo.svg" alt="#"
+                        class="object-fit-contain overflow-hidden m-0 p-0"></div>
+                <span class="menuIcon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul class="d-flex align-items-center justify-content-center text-center gap-4 m-0 p-0 smView">
+                    <li><a href="#Home" class="fs-16 fw-400 ff_Open_Sans color-white Nav m-0 p-0">Home</a></li>
+                    <li><a href="#Feature" class="fs-16 fw-400 ff_Open_Sans color-white Nav m-0 p-0">Feature</a></li>
+                    <li><a href="#News" class="fs-16 fw-400 ff_Open_Sans color-white Nav m-0 p-0">News</a></li>
+                    <li><a href="#Pricing" class="fs-16 fw-400 ff_Open_Sans color-white Nav m-0 p-0">Pricing</a></li>
+                    <li><a href="#Testimonials"
+                            class="fs-16 fw-400 ff_Open_Sans color-white Nav m-0 p-0">Testimonials</a></li>
+                    <li><a href="#"
+                            class="fs-16 fw-500 ff_Open_Sans color-white m-0 p-0 d-lg-none d-block Nav">Log&nbsp;In</a>
+                    </li>
+                    <li><button
+                            class="sign_up d-lg-none d-flex align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white">sign&nbsp;up</button>
+                    </li>
+                </ul>
+                <ul class="d-flex align-items-center gap-5 m-0 p-0">
+                    <li><a href="#"
+                            class="fs-16 fw-500 ff_Open_Sans color-white m-0 p-0 d-lg-block d-none Nav">Log&nbsp;In</a>
+                    </li>
+                    <li><button
+                            class="sign_up align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white d-lg-flex d-none">sign&nbsp;up</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="d-flex align-items-center justify-content-center pt-100">
+                <img src="./assets/images/Btn-img.png" alt="#"
+                    class="object-fit-contain overflow-hidden Btn-img m-0 p-0">
+                <button class="AI fs-16 fw-400 ff_Open_Sans color-white">Our&nbsp;AI&nbsp;integration</button>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center pt-4">
+                <p class="fs-80 fw-600 ff_Anek_Telugu color-white max-w-1035 m-0 p-0">Make faster <span
+                        class="fs-80 fw-200 ff_Anek_Telugu color-white max-w-1035 m-0 p-0"> and </span>
+                    smarter <span class="fs-80 fw-200 ff_Anek_Telugu color-white max-w-1035 m-0 p-0"> decisions with
+                    </span> <span class="fs-80 fw-600 ff_Anek_Telugu color-light-blue max-w-1035 m-0 p-0"> Stratman
+                        Al</span></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center">
+                <p class="fs-16 fw-400 ff_Anek_Telugu color-grey pt-4 m-0 p-0">Our platform harnesses the power of
+                    artificial
+                    intelligence to revolutionize your investment journey.</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center pt-5 pb-100">
+                <input class="input fs-16 fw-400 ff_Anek_Telugu color-light-white cursor"
+                    type="Search ideas for your investment..." value="Search ideas for your investment...">
+                <img src="./assets/images/Search-icon.png" alt="#"
+                    class="object-fit-contain overflow-hidden Search-icon m-0 p-0 cursor">
+            </div>
+        </div>
+    </header>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="row d-flex align-items-center justify-content-center flex-wrap gap-5">
+                <img src="./assets/images/DC.png" alt="#"
+                    class="object-fit-contain overflow-hidden img-m-w mt-sm-9 mt-xl-9">
+                <img src="./assets/images/BCG.png" alt="#"
+                    class="object-fit-contain overflow-hidden img-m-w mt-sm-9 mt-xl-9">
+                <img src="./assets/images/BASKIN.png" alt="#"
+                    class="object-fit-contain overflow-hidden img-m-w mt-sm-9 mt-xl-9">
+                <img src="./assets/images/CFI.png" alt="#"
+                    class="object-fit-contain overflow-hidden img-m-w mt-sm-9 mt-xl-9">
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="Feature">
+        <div class="Container_1">
+            <div class="position-relative">
+                <img src="./assets/images/Btn-img-2.png" alt="#"
+                    class="object-fit-contain overflow-hidden Btn-img-2 m-0 p-0">
+                <button class="FEATURES fs-16 fw-400 ff_Open_Sans color-light-blue">FEATURES</button>
+            </div>
+            <p class="fs-52 fw-600 ff_Anek_Telugu color-black">Stratman AI <span class="fs-52 fw-200 color-black"> helps Achieve
+                </span> <span class="fs-52 fw-600 ff_Anek_Telugu color-light-blue"> Your Goals</span></p>
+            <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-812 m-0 p-0">Our AI-powered platform offers comprehensive features,
+                including real-time financial data, customized charts, market trend analysis, and access to SEC filings.
+            </p>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-7 col-12">
+                    <img src="./assets/images/S-2-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 S-2-img-m-w m-0 p-0">
+                </div>
+                <div class="col-lg-5 col-12 mt-lg-9">
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-light-blue m-0 p-0">TRENDS DATE</p>
+                    <p class="fs-48 fw-600 ff_Anek_Telugu color-black m-0 p-0">Trends Data: Key Insights and Trends</p>
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-485 pt-3 m-0 p-0">Trends mode handles this problem by using
+                        Al to take in any query that you might think of, in this example- nvidia; and generate 5 search
+                        queries related to that term, and plots the last 12 months in trends. This is where trends mode
+                        can eliminate a lot of the noise, and help spark ideas.</p>
+                    <div class="pt-4">
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white Common-btn">Start&nbsp;Chatting&nbsp;Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-7 col-12">
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-light-blue m-0 p-0">CHART ANALYSIS</p>
+                    <p class="fs-48 fw-600 ff_Anek_Telugu color-black max-w-439 m-0 p-0">Analyzing Charts for Key Insights</p>
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-485 pt-3 m-0 p-0">Use the Technicals copilot to upload
+                        screenshots of your charts. Let Stratman know about which patterns you're looking for, use it as
+                        an extra set of eyes to quickly scan your charts, or simply ask questions to gain insight.
+                        Upload a single chart or split screen charts to do analysis of multiple charts at once along
+                        with a question or query.</p>
+                    <div class="pt-4">
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white Common-btn">Start&nbsp;Chatting&nbsp;Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 mt-lg-9">
+                    <img src="./assets/images/S-3-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 S-3-img-m-w m-0 p-0">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1 header-bg-img">
+            <div class="row d-flex align-items-center justify-content-center py-5">
+                <div class="col-lg-7 col-12">
+                    <img src="./assets/images/S-4-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 S-4-img-m-w m-0 p-0">
+                </div>
+                <div class="col-lg-5 col-12 mt-lg-9">
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-white m-0 p-0">DASHBOARD</p>
+                    <p class="fs-48 fw-600 ff_Anek_Telugu color-white m-0 p-0">Analysis&nbsp;Dashboard</p>
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-white max-w-446 pt-3 m-0 p-0">This section is designed to view custom
+                        charts with access to nearly 100 metrics for a given stock ticker. Just type in the ticker you'd
+                        like to see, and select up to 3 metrics to view the charts, with historical data up to 30 years.
+                        Great way to gain fast insights about a stock.</p>
+                    <div class="pt-4">
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center fs-16 fw-500 color-white Common-btn">Start&nbsp;Chatting&nbsp;Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-7 col-12">
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-light-blue m-0 p-0">SEARCH MODE</p>
+                    <p class="fs-48 fw-600 ff_Anek_Telugu color-black max-w-439 m-0 p-0">Internet Web Search Integration</p>
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-485 pt-3 m-0 p-0">Search mode is designed to take any
+                        search queries just like a normal search engine such as Google would. It takes the top 3 most
+                        relevant links to your search, and provides a summary. Search mode is a great way to get caught
+                        up on the latest news, to ask questions that you'd normally ask google, useful to save time from
+                        sorting through the noise on your own.</p>
+                    <div class="pt-4">
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white Common-btn">Start&nbsp;Chatting&nbsp;Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 mt-lg-9">
+                    <img src="./assets/images/S-5-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 S-5-img-m-w m-0 p-0">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-7 col-12">
+                    <img src="./assets/images/S-6-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 S-6-img-m-w m-0 p-0">
+                </div>
+                <div class="col-lg-5 col-12 mt-lg-9">
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-light-blue m-0 p-0">COPILOT</p>
+                    <p class="fs-48 fw-600 ff_Anek_Telugu color-black max-w-463 m-0 p-0">Copilot for fundamental data</p>
+                    <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-494 pt-3 m-0 p-0">The Fundamentals copilot is designed for
+                        users to ask questions about fundamentals for a company. This copilot utilizes LLM's with our
+                        fundamentals data to provide comprehensive answers to natural language questions ( i.e: 'Does
+                        Nvidia have a positive earnings projection?'), and also comes with a special hotkeys feature.
+                        Hotkeys can access specialized data such as SEC 10-K filings, insider trading reports, analyst
+                        projections, and more, all with a ticker and a hotkey like such: 'tsla r' provides a summary of
+                        Tesla's risk factors section of their most recent 10-K.</p>
+                    <div class="pt-4">
+                        <button
+                            class="d-flex align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white Common-btn">Start&nbsp;Chatting&nbsp;Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="Testimonials">
+        <div class="Container_1 header-bg-img py-5">
+            <div class="d-flex align-items-center justify-content-center text-center position-relative">
+                <img src="./assets/images/Btn-img-2.png" alt="#"
+                    class="object-fit-contain overflow-hidden Btn-img-3 m-0 p-0">
+                <button class="TESTIMONIALS fs-16 fw-400 ff_Open_Sans color-light-blue">TESTIMONIALS</button>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center flex-column pt-2">
+                <p class="fs-52 fw-600 ff_Anek_Telugu color-white m-0 p-0">Trusted <span class="fs-52 fw-200 color-white m-0 p-0">
+                        investors & </span><span class="fs-52 fw-600 color-light-blue m-0 p-0"> organizations</span>
+                </p>
+                <p class="fs-16 fw-400 ff_Anek_Telugu color-grey max-w-812 m-0 p-0">Our AI-powered platform offers comprehensive
+                    features, including real-time financial data, customized charts, market trend analysis, and access
+                    to SEC filings. </p>
+            </div>
+            <div class="py-5">
+                <div class="Slick_slider">
+                    <div class="slider_box position-relative">
+                        <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-316 pb-4 m-0 p-0">Stratman AI is a generative AI tool
+                            that will become the most powerful equity analyst ever. " The most intuitive platform I've
+                            ever seen for tracking business fundame</p>
+                        <div class="slider-border-bottom"></div>
+                        <div class="d-flex gap-3 pt-4">
+                            <img src="./assets/images/Slider-img-1.png" alt="#"
+                                class="object-fit-contain overflow-hidden Slider-img-m-w m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-18 fw-600 ff_Anek_Telugu color-black m-0 p-0">Song Yoo-mee</p>
+                                <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Dealing Maven</p>
+                            </div>
+                            <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                                    class="object-fit-contain overflow-hidden m-0 p-0 slider-svg" width="44" height="32"
+                                    viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.1"
+                                        d="M33.9997 8.81148e-08C36.4485 -0.000336168 38.7993 0.961734 40.5453 2.67876C42.2912 4.39579 43.2925 6.73022 43.333 9.17867C43.573 11.4853 43.5384 14.888 41.9784 18.816C40.3837 22.832 37.2744 27.2107 31.5997 31.4667C31.3196 31.6768 31.0008 31.8297 30.6615 31.9166C30.3223 32.0035 29.9693 32.0227 29.6226 31.9732C28.9225 31.8732 28.2907 31.4991 27.8664 30.9333C27.442 30.3675 27.2598 29.6563 27.3598 28.9562C27.4599 28.2561 27.8339 27.6243 28.3997 27.2C32.5704 24.072 34.9597 21.032 36.3277 18.3733C35.0451 18.7027 33.7072 18.7554 32.4027 18.5279C31.0982 18.3004 29.857 17.7979 28.7617 17.0538C27.6663 16.3098 26.7418 15.3411 26.0496 14.2123C25.3574 13.0834 24.9133 11.8202 24.7469 10.5065C24.5804 9.19286 24.6954 7.8588 25.0842 6.59298C25.473 5.32716 26.1267 4.15856 27.0019 3.16481C27.877 2.17106 28.9536 1.37492 30.1602 0.829257C31.3667 0.283598 32.6755 0.000918978 33.9997 8.81148e-08ZM9.99971 8.81148e-08C12.4485 -0.000336168 14.7993 0.961734 16.5453 2.67876C18.2912 4.39579 19.2925 6.73022 19.333 9.17867C19.573 11.4853 19.5384 14.888 17.9784 18.816C16.3864 22.832 13.2744 27.2107 7.59971 31.4667C7.31956 31.6768 7.00076 31.8297 6.66152 31.9166C6.32229 32.0035 5.96926 32.0227 5.62259 31.9732C4.92245 31.8732 4.29072 31.4991 3.86637 30.9333C3.44203 30.3675 3.25982 29.6563 3.35984 28.9562C3.45986 28.2561 3.83391 27.6243 4.39971 27.2C8.57038 24.072 10.9597 21.032 12.3277 18.3733C11.0451 18.7027 9.70718 18.7554 8.40268 18.5279C7.09819 18.3004 5.85704 17.7979 4.76168 17.0538C3.66632 16.3098 2.74183 15.3411 2.04962 14.2123C1.35741 13.0834 0.913332 11.8202 0.746882 10.5065C0.580432 9.19286 0.695422 7.8588 1.08421 6.59298C1.47301 5.32716 2.1267 4.15856 3.00187 3.16481C3.87703 2.17106 4.95364 1.37492 6.16017 0.829257C7.3667 0.283598 8.67553 0.000918978 9.99971 8.81148e-08Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="slider_box position-relative">
+                        <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-316 pb-4 m-0 p-0">Few tools I have come across in the
+                            last 15 years that I think are true game changers. Stratman AI makes investment research so
+                            much more efficient.</p>
+                        <div class="slider-border-bottom"></div>
+                        <div class="d-flex gap-3 pt-4">
+                            <img src="./assets/images/Slider-img-2.png" alt="#"
+                                class="object-fit-contain overflow-hidden Slider-img-m-w m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-18 fw-600 ff_Anek_Telugu color-black m-0 p-0">Bemra Ramaswami</p>
+                                <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Trade Wizard</p>
+                            </div>
+                            <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                                    class="object-fit-contain overflow-hidden m-0 p-0 slider-svg" width="44" height="32"
+                                    viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.1"
+                                        d="M33.9997 8.81148e-08C36.4485 -0.000336168 38.7993 0.961734 40.5453 2.67876C42.2912 4.39579 43.2925 6.73022 43.333 9.17867C43.573 11.4853 43.5384 14.888 41.9784 18.816C40.3837 22.832 37.2744 27.2107 31.5997 31.4667C31.3196 31.6768 31.0008 31.8297 30.6615 31.9166C30.3223 32.0035 29.9693 32.0227 29.6226 31.9732C28.9225 31.8732 28.2907 31.4991 27.8664 30.9333C27.442 30.3675 27.2598 29.6563 27.3598 28.9562C27.4599 28.2561 27.8339 27.6243 28.3997 27.2C32.5704 24.072 34.9597 21.032 36.3277 18.3733C35.0451 18.7027 33.7072 18.7554 32.4027 18.5279C31.0982 18.3004 29.857 17.7979 28.7617 17.0538C27.6663 16.3098 26.7418 15.3411 26.0496 14.2123C25.3574 13.0834 24.9133 11.8202 24.7469 10.5065C24.5804 9.19286 24.6954 7.8588 25.0842 6.59298C25.473 5.32716 26.1267 4.15856 27.0019 3.16481C27.877 2.17106 28.9536 1.37492 30.1602 0.829257C31.3667 0.283598 32.6755 0.000918978 33.9997 8.81148e-08ZM9.99971 8.81148e-08C12.4485 -0.000336168 14.7993 0.961734 16.5453 2.67876C18.2912 4.39579 19.2925 6.73022 19.333 9.17867C19.573 11.4853 19.5384 14.888 17.9784 18.816C16.3864 22.832 13.2744 27.2107 7.59971 31.4667C7.31956 31.6768 7.00076 31.8297 6.66152 31.9166C6.32229 32.0035 5.96926 32.0227 5.62259 31.9732C4.92245 31.8732 4.29072 31.4991 3.86637 30.9333C3.44203 30.3675 3.25982 29.6563 3.35984 28.9562C3.45986 28.2561 3.83391 27.6243 4.39971 27.2C8.57038 24.072 10.9597 21.032 12.3277 18.3733C11.0451 18.7027 9.70718 18.7554 8.40268 18.5279C7.09819 18.3004 5.85704 17.7979 4.76168 17.0538C3.66632 16.3098 2.74183 15.3411 2.04962 14.2123C1.35741 13.0834 0.913332 11.8202 0.746882 10.5065C0.580432 9.19286 0.695422 7.8588 1.08421 6.59298C1.47301 5.32716 2.1267 4.15856 3.00187 3.16481C3.87703 2.17106 4.95364 1.37492 6.16017 0.829257C7.3667 0.283598 8.67553 0.000918978 9.99971 8.81148e-08Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="slider_box position-relative">
+                        <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-315 pb-4 m-0 p-0">I've enjoyed using Stratman AI to
+                            source opportunities within my investable universe. The whole team is responsive to client
+                            feedback regarding coverage. A great resource for managers."</p>
+                        <div class="slider-border-bottom"></div>
+                        <div class="d-flex gap-3 pt-4">
+                            <img src="./assets/images/Slider-img-3.png" alt="#"
+                                class="object-fit-contain overflow-hidden Slider-img-m-w m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-18 fw-600 ff_Anek_Telugu color-black m-0 p-0">Harsi Kosanam</p>
+                                <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Crypto Analyst</p>
+                            </div>
+                            <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                                    class="object-fit-contain overflow-hidden m-0 p-0 slider-svg" width="44" height="32"
+                                    viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.1"
+                                        d="M33.9997 8.81148e-08C36.4485 -0.000336168 38.7993 0.961734 40.5453 2.67876C42.2912 4.39579 43.2925 6.73022 43.333 9.17867C43.573 11.4853 43.5384 14.888 41.9784 18.816C40.3837 22.832 37.2744 27.2107 31.5997 31.4667C31.3196 31.6768 31.0008 31.8297 30.6615 31.9166C30.3223 32.0035 29.9693 32.0227 29.6226 31.9732C28.9225 31.8732 28.2907 31.4991 27.8664 30.9333C27.442 30.3675 27.2598 29.6563 27.3598 28.9562C27.4599 28.2561 27.8339 27.6243 28.3997 27.2C32.5704 24.072 34.9597 21.032 36.3277 18.3733C35.0451 18.7027 33.7072 18.7554 32.4027 18.5279C31.0982 18.3004 29.857 17.7979 28.7617 17.0538C27.6663 16.3098 26.7418 15.3411 26.0496 14.2123C25.3574 13.0834 24.9133 11.8202 24.7469 10.5065C24.5804 9.19286 24.6954 7.8588 25.0842 6.59298C25.473 5.32716 26.1267 4.15856 27.0019 3.16481C27.877 2.17106 28.9536 1.37492 30.1602 0.829257C31.3667 0.283598 32.6755 0.000918978 33.9997 8.81148e-08ZM9.99971 8.81148e-08C12.4485 -0.000336168 14.7993 0.961734 16.5453 2.67876C18.2912 4.39579 19.2925 6.73022 19.333 9.17867C19.573 11.4853 19.5384 14.888 17.9784 18.816C16.3864 22.832 13.2744 27.2107 7.59971 31.4667C7.31956 31.6768 7.00076 31.8297 6.66152 31.9166C6.32229 32.0035 5.96926 32.0227 5.62259 31.9732C4.92245 31.8732 4.29072 31.4991 3.86637 30.9333C3.44203 30.3675 3.25982 29.6563 3.35984 28.9562C3.45986 28.2561 3.83391 27.6243 4.39971 27.2C8.57038 24.072 10.9597 21.032 12.3277 18.3733C11.0451 18.7027 9.70718 18.7554 8.40268 18.5279C7.09819 18.3004 5.85704 17.7979 4.76168 17.0538C3.66632 16.3098 2.74183 15.3411 2.04962 14.2123C1.35741 13.0834 0.913332 11.8202 0.746882 10.5065C0.580432 9.19286 0.695422 7.8588 1.08421 6.59298C1.47301 5.32716 2.1267 4.15856 3.00187 3.16481C3.87703 2.17106 4.95364 1.37492 6.16017 0.829257C7.3667 0.283598 8.67553 0.000918978 9.99971 8.81148e-08Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                    </div>
+                    <div class="slider_box position-relative">
+                        <p class="fs-16 fw-400 ff_Anek_Telugu color-black max-w-316 pb-4 m-0 p-0">Stratman AI is a generative AI tool
+                            that will become the most powerful equity analyst ever. " The most intuitive platform I've
+                            ever seen for tracking business fundame</p>
+                        <div class="slider-border-bottom"></div>
+                        <div class="d-flex gap-3 pt-4">
+                            <img src="./assets/images/Slider-img-1.png" alt="#"
+                                class="object-fit-contain overflow-hidden Slider-img-m-w m-0 p-0">
+                            <div class="d-flex flex-column">
+                                <p class="fs-18 fw-600 ff_Anek_Telugu color-black m-0 p-0">Song Yoo-mee</p>
+                                <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Dealing Maven</p>
+                            </div>
+                            <span class="object-fit-contain overflow-hidden m-0 p-0"><svg
+                                    class="object-fit-contain overflow-hidden m-0 p-0 slider-svg" width="44" height="32"
+                                    viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.1"
+                                        d="M33.9997 8.81148e-08C36.4485 -0.000336168 38.7993 0.961734 40.5453 2.67876C42.2912 4.39579 43.2925 6.73022 43.333 9.17867C43.573 11.4853 43.5384 14.888 41.9784 18.816C40.3837 22.832 37.2744 27.2107 31.5997 31.4667C31.3196 31.6768 31.0008 31.8297 30.6615 31.9166C30.3223 32.0035 29.9693 32.0227 29.6226 31.9732C28.9225 31.8732 28.2907 31.4991 27.8664 30.9333C27.442 30.3675 27.2598 29.6563 27.3598 28.9562C27.4599 28.2561 27.8339 27.6243 28.3997 27.2C32.5704 24.072 34.9597 21.032 36.3277 18.3733C35.0451 18.7027 33.7072 18.7554 32.4027 18.5279C31.0982 18.3004 29.857 17.7979 28.7617 17.0538C27.6663 16.3098 26.7418 15.3411 26.0496 14.2123C25.3574 13.0834 24.9133 11.8202 24.7469 10.5065C24.5804 9.19286 24.6954 7.8588 25.0842 6.59298C25.473 5.32716 26.1267 4.15856 27.0019 3.16481C27.877 2.17106 28.9536 1.37492 30.1602 0.829257C31.3667 0.283598 32.6755 0.000918978 33.9997 8.81148e-08ZM9.99971 8.81148e-08C12.4485 -0.000336168 14.7993 0.961734 16.5453 2.67876C18.2912 4.39579 19.2925 6.73022 19.333 9.17867C19.573 11.4853 19.5384 14.888 17.9784 18.816C16.3864 22.832 13.2744 27.2107 7.59971 31.4667C7.31956 31.6768 7.00076 31.8297 6.66152 31.9166C6.32229 32.0035 5.96926 32.0227 5.62259 31.9732C4.92245 31.8732 4.29072 31.4991 3.86637 30.9333C3.44203 30.3675 3.25982 29.6563 3.35984 28.9562C3.45986 28.2561 3.83391 27.6243 4.39971 27.2C8.57038 24.072 10.9597 21.032 12.3277 18.3733C11.0451 18.7027 9.70718 18.7554 8.40268 18.5279C7.09819 18.3004 5.85704 17.7979 4.76168 17.0538C3.66632 16.3098 2.74183 15.3411 2.04962 14.2123C1.35741 13.0834 0.913332 11.8202 0.746882 10.5065C0.580432 9.19286 0.695422 7.8588 1.08421 6.59298C1.47301 5.32716 2.1267 4.15856 3.00187 3.16481C3.87703 2.17106 4.95364 1.37492 6.16017 0.829257C7.3667 0.283598 8.67553 0.000918978 9.99971 8.81148e-08Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center m-0 p-0">
+                <div class="prev slider-btn d-flex align-items-center justify-content-center position-absolute">
+                    <span class="d-flex align-items-center justify-content-center"><svg
+                            class="d-flex align-items-center justify-content-center slider-btn-svg" width="12"
+                            height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.8496 19.1C11.0996 18.85 11.2246 18.554 11.2246 18.212C11.2246 17.87 11.0996 17.5743 10.8496 17.325L3.52461 10L10.8746 2.65C11.1079 2.41667 11.2246 2.125 11.2246 1.775C11.2246 1.425 11.0996 1.125 10.8496 0.875C10.5996 0.625 10.3036 0.5 9.96161 0.5C9.61961 0.5 9.32394 0.625 9.07461 0.875L0.674608 9.3C0.574608 9.4 0.503609 9.50833 0.461609 9.625C0.419609 9.74167 0.398942 9.86667 0.399609 10C0.399609 10.1333 0.420609 10.2583 0.462608 10.375C0.504608 10.4917 0.575274 10.6 0.674608 10.7L9.09961 19.125C9.33294 19.3583 9.62061 19.475 9.96261 19.475C10.3046 19.475 10.6003 19.35 10.8496 19.1Z"
+                                fill="#FEFEFE" />
+                        </svg></span>
+                </div>
+                <div class="next slider-btn d-flex align-items-center justify-content-center position-absolute">
+                    <span class="d-flex align-items-center justify-content-center"><svg
+                            class="d-flex align-items-center justify-content-center slider-btn-svg" width="12"
+                            height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.775391 19.1C0.525391 18.85 0.400391 18.554 0.400391 18.212C0.400391 17.87 0.525391 17.5743 0.775391 17.325L8.10039 10L0.750391 2.65C0.517057 2.41667 0.400391 2.125 0.400391 1.775C0.400391 1.425 0.525391 1.125 0.775391 0.875C1.02539 0.625 1.32139 0.5 1.66339 0.5C2.00539 0.5 2.30106 0.625 2.55039 0.875L10.9504 9.3C11.0504 9.4 11.1214 9.50833 11.1634 9.625C11.2054 9.74167 11.2261 9.86667 11.2254 10C11.2254 10.1333 11.2044 10.2583 11.1624 10.375C11.1204 10.4917 11.0497 10.6 10.9504 10.7L2.52539 19.125C2.29206 19.3583 2.00439 19.475 1.66239 19.475C1.32039 19.475 1.02472 19.35 0.775391 19.1Z"
+                                fill="#FEFEFE" />
+                        </svg></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="Pricing">
+        <div class="Container_1">
+            <div class="d-flex align-items-center justify-content-center text-center position-relative">
+                <img src="./assets/images/Btn-img-2.png" alt="#"
+                    class="object-fit-contain overflow-hidden Btn-img-3 m-0 p-0">
+                <button class="PEICING fs-16 fw-400 ff_Anek_Telugu ff_Open_Sans color-light-blue">PEICING</button>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center pt-2">
+                <p class="fs-52 fw-600 color-black max-w-726 m-0 p-0">Stratman AI Vs <span
+                        class="fs-52 fw-200 ff_Anek_Telugu color-black max-w-726 m-0 p-0"> other stock </span> <span
+                        class="fs-52 fw-600 ff_Anek_Telugu color-light-blue max-w-726 m-0 p-0"> research assistants</span></p>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center flex-wrap gap-24 py-5">
+                <div class="card">
+                    <p class="fs-32 fw-600 ff_Anek_Telugu color-black pb-2 m-0 p-0">FinChat</p>
+                    <div class="card-border-bottom"></div>
+                    <div class="pt-4">
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Affordable Pricing</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Copilot</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Custom charts</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">SEC filing summaries</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Web search integration</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Technical analysis copilot</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Google trends simulations</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Hotkeys for common tasks</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">10 second response time</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Insider trading reports</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 ff_Anek_Telugu color-black m-0 p-0">Analyst ratings and projections</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="fs-32 fw-600 color-black pb-2 m-0 p-0">Stratman AI</p>
+                    <div class="card-border-bottom"></div>
+                    <div class="pt-4">
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Affordable Pricing</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Copilot</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Custom charts</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">SEC filing summaries</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Web search integration</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Technical analysis copilot</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Google trends simulations</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Hotkeys for common tasks</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">10 second response time</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Insider trading reports</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Analyst ratings and projections</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p class="fs-32 fw-600 color-black pb-2 m-0 p-0">Borea</p>
+                    <div class="card-border-bottom"></div>
+                    <div class="pt-4">
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Affordable Pricing</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Copilot</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Custom charts</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">SEC filing summaries</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Web search integration</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Technical analysis copilot</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Google trends simulations</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Hotkeys for common tasks</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <span><svg width="19" height="15" viewBox="0 0 19 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.2279 0L7.52207 10.356L2.375 5.7154L0 7.85826L7.91543 15L19 2.14286L16.2279 0Z"
+                                        fill="black" />
+                                </svg></span>
+                            <p class="fs-16 fw-400 color-black m-0 p-0">10 second response time</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Insider trading reports</p>
+                        </div>
+                        <div class="d-flex align-items-center pt-3 gap-3">
+                            <img src="./assets/images/Cross-img.png" alt="#"
+                                class="object-fit-contain overflow-auto m-0 p-0">
+                            <p class="fs-16 fw-400 color-black m-0 p-0">Analyst ratings and projections</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5" id="News">
+        <div class="Container_1 header-bg-img py-5">
+            <div class="d-flex align-items-center justify-content-center text-center position-relative">
+                <img src="./assets/images/Btn-img-2.png" alt="#"
+                    class="object-fit-contain overflow-hidden Btn-img-4 m-0 p-0">
+                <button class="NEWS fs-16 fw-400 ff_Open_Sans color-light-blue">NEWS & INSIGHTS</button>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center pt-2">
+                <p class="fs-52 fw-600 color-white m-0 p-0">Our <span class="fs-52 fw-200 color-white m-0 p-0"> News
+                        &</span> <span class="fs-52 fw-600 color-light-blue m-0 p-0"> Insights</span></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center">
+                <p class="fs-16 fw-400 color-grey max-w-625 m-0 p-0">Stay informed and ahead of the curve with the
+                    latest trends, tips, and insights in video ad creation
+                    and social media marketing. </p>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center flex-wrap gap-24 py-5">
+                <div class="box">
+                    <img src="./assets/images/Box-img.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 Box-img-m-w m-0 p-0">
+                    <p class="fs-24 fw-600 color-light-blue pt-4 m-0 p-0">Analytics AI: Why You Need Stratman AI in
+                        2024</p>
+                    <p class="fs-16 fw-400 color-black max-w-518 pt-3 m-0 p-0">Stratman AI uses the newest artificial
+                        intelligence (AI) and machine learning (ML) technologies to analyze cryptocurrency markets.</p>
+                    <div class="d-flex align-items-center pt-3 gap-3 cursor">
+                        <p class="fs-16 fw-400 color-black m-0 p-0">Read More</p>
+                        <span class="d-flex align-items-center object-fit-contain overflow-hidden m-0 p-0"><svg
+                                class="d-flex align-items-center object-fit-contain overflow-hidden m-0 p-0" width="6"
+                                height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.243601 0.587698C0.320696 0.510445 0.41227 0.449155 0.513081 0.407337C0.613892 0.365519 0.721961 0.343994 0.831101 0.343994C0.940241 0.343994 1.04831 0.365519 1.14912 0.407337C1.24993 0.449155 1.34151 0.510445 1.4186 0.587698L5.2436 4.4127C5.32085 4.48979 5.38214 4.58137 5.42396 4.68218C5.46578 4.78299 5.4873 4.89106 5.4873 5.0002C5.4873 5.10934 5.46578 5.21741 5.42396 5.31822C5.38214 5.41903 5.32085 5.5106 5.2436 5.5877L1.4186 9.4127C1.34145 9.48985 1.24986 9.55105 1.14905 9.5928C1.04825 9.63456 0.94021 9.65605 0.831101 9.65605C0.721992 9.65605 0.613952 9.63456 0.513149 9.5928C0.412345 9.55105 0.320753 9.48985 0.243601 9.4127C0.16645 9.33555 0.10525 9.24395 0.0634961 9.14315C0.0217419 9.04235 0.000250816 8.93431 0.000250816 8.8252C0.000250816 8.71609 0.0217419 8.60805 0.0634961 8.50725C0.10525 8.40644 0.16645 8.31485 0.243601 8.2377L3.47693 4.99603L0.243601 1.7627C-0.0813985 1.4377 -0.0730653 0.904364 0.243601 0.587698Z"
+                                    fill="#00192A" />
+                            </svg></span>
+                    </div>
+                    <div class="box-border-bottom"></div>
+                </div>
+                <div class="box">
+                    <img src="./assets/images/Box-img-2.png" alt="#"
+                        class="object-fit-contain overflow-hidden w-100 Box-img-m-w m-0 p-0">
+                    <p class="fs-24 fw-600 color-light-blue pt-4 m-0 p-0">AI Financial Market: Stratman AI Leads the
+                        Way</p>
+                    <p class="fs-16 fw-400 color-black max-w-495 pt-3 m-0 p-0">In the current 2024 financial markets,
+                        it's more important than ever to have accurate forecasting.</p>
+                    <div class="d-flex align-items-center pt-3 gap-3 cursor">
+                        <p class="fs-16 fw-400 color-black m-0 p-0">Read More</p>
+                        <span class="d-flex align-items-center object-fit-contain overflow-hidden m-0 p-0"><svg
+                                class="d-flex align-items-center object-fit-contain overflow-hidden m-0 p-0" width="6"
+                                height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.243601 0.587698C0.320696 0.510445 0.41227 0.449155 0.513081 0.407337C0.613892 0.365519 0.721961 0.343994 0.831101 0.343994C0.940241 0.343994 1.04831 0.365519 1.14912 0.407337C1.24993 0.449155 1.34151 0.510445 1.4186 0.587698L5.2436 4.4127C5.32085 4.48979 5.38214 4.58137 5.42396 4.68218C5.46578 4.78299 5.4873 4.89106 5.4873 5.0002C5.4873 5.10934 5.46578 5.21741 5.42396 5.31822C5.38214 5.41903 5.32085 5.5106 5.2436 5.5877L1.4186 9.4127C1.34145 9.48985 1.24986 9.55105 1.14905 9.5928C1.04825 9.63456 0.94021 9.65605 0.831101 9.65605C0.721992 9.65605 0.613952 9.63456 0.513149 9.5928C0.412345 9.55105 0.320753 9.48985 0.243601 9.4127C0.16645 9.33555 0.10525 9.24395 0.0634961 9.14315C0.0217419 9.04235 0.000250816 8.93431 0.000250816 8.8252C0.000250816 8.71609 0.0217419 8.60805 0.0634961 8.50725C0.10525 8.40644 0.16645 8.31485 0.243601 8.2377L3.47693 4.99603L0.243601 1.7627C-0.0813985 1.4377 -0.0730653 0.904364 0.243601 0.587698Z"
+                                    fill="#00192A" />
+                            </svg></span>
+                    </div>
+                    <div class="box-border-bottom"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="d-flex align-items-center justify-content-center text-center position-relative">
+                <img src="./assets/images/Btn-img-2.png" alt="#"
+                    class="object-fit-contain overflow-hidden Btn-img-5 m-0 p-0">
+                <button class="FAQ’s fs-16 fw-400 ff_Open_Sans color-light-blue">FAQ’s</button>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center pt-2">
+                <p class="fs-52 fw-600 color-black m-0 p-0">Frequently <span class="fs-52 fw-200 color-black m-0 p-0">
+                        Asked</span><span class="fs-52 fw-600 color-light-blue m-0 p-0"> Questions</span></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column mt-5">
+                <div class="accordian-box mt-4">
+                    <div class="full-part">
+                        <div class="d-flex align-items-center justify-content-between top-part cursor">
+                            <p class="accord-head fs-20 fw-500 color-black m-0 p-0 py-16 px-16">How do I get started
+                                with Stratman AI?</p>
+                            <span class="py-16 px-16"><svg width="19" height="12" viewBox="0 0 19 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="accord-img">
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                        <p class="accord-para fs-16 fw-400 color-black max-w-668 pt-3 m-0 p-0 py-16 px-16">Simply
+                            sign up on our website, create an account, and you can start exploring our features
+                            immediately.</p>
+                    </div>
+                </div>
+                <div class="accordian-box mt-4">
+                    <div class="full-part">
+                        <div class="d-flex align-items-center justify-content-between top-part cursor">
+                            <p class="accord-head fs-20 fw-500 color-black m-0 p-0 py-16 px-16">What features does
+                                Stratman AI offer?</p>
+                            <span class="py-16 px-16"><svg width="19" height="12" viewBox="0 0 19 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="accord-img">
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                        <p class="accord-para fs-16 fw-400 color-black max-w-668 pt-3 m-0 p-0 py-16 px-16">Simply
+                            sign up on our website, create an account, and you can start exploring our features
+                            immediately.</p>
+                    </div>
+                </div>
+                <div class="accordian-box mt-4">
+                    <div class="full-part">
+                        <div class="d-flex align-items-center justify-content-between top-part cursor">
+                            <p class="accord-head fs-20 fw-500 color-black m-0 p-0 py-16 px-16">How does the Google
+                                Trends Data integration work?</p>
+                            <span class="py-16 px-16"><svg width="19" height="12" viewBox="0 0 19 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="accord-img">
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                        <p class="accord-para fs-16 fw-400 color-black max-w-668 pt-3 m-0 p-0 py-16 px-16">Simply
+                            sign up on our website, create an account, and you can start exploring our features
+                            immediately.</p>
+                    </div>
+                </div>
+                <div class="accordian-box mt-4">
+                    <div class="full-part">
+                        <div class="d-flex align-items-center justify-content-between top-part cursor">
+                            <p class="accord-head fs-20 fw-500 color-black m-0 p-0 py-16 px-16">Is my data secure
+                                with
+                                Stratman AI?</p>
+                            <span class="py-16 px-16"><svg width="19" height="12" viewBox="0 0 19 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="accord-img">
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                        <p class="accord-para fs-16 fw-400 color-black max-w-668 pt-3 m-0 p-0 py-16 px-16">Simply
+                            sign up on our website, create an account, and you can start exploring our features
+                            immediately.</p>
+                    </div>
+                </div>
+                <div class="accordian-box mt-4">
+                    <div class="full-part">
+                        <div class="d-flex align-items-center justify-content-between top-part cursor">
+                            <p class="accord-head fs-20 fw-500 color-black m-0 p-0 py-16 px-16">Can I customize the
+                                charts and data views?</p>
+                            <span class="py-16 px-16"><svg width="19" height="12" viewBox="0 0 19 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" class="accord-img">
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                    <path
+                                        d="M16.1088 11.4909C16.7613 12.1659 17.8413 12.1659 18.4938 11.5134C19.1687 10.8384 19.1687 9.7809 18.4938 9.1284L10.6863 1.2759C10.3713 0.9609 9.94376 0.7809 9.49376 0.7809C9.04377 0.7809 8.61627 0.960899 8.30127 1.2759L0.493778 9.1284C0.156279 9.4434 -0.00122052 9.8709 -0.00122055 10.2984C-0.00122059 10.7484 0.156279 11.1759 0.493778 11.5134C1.16878 12.1659 2.22628 12.1659 2.87877 11.4909L9.49376 4.8534L16.1088 11.4909Z"
+                                        fill="#0A0A0A" />
+                                </svg></span>
+                        </div>
+                        <p class="accord-para fs-16 fw-400 color-black max-w-668 pt-3 m-0 p-0 py-16 px-16">Simply
+                            sign up on our website, create an account, and you can start exploring our features
+                            immediately.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1 header-bg-img py-100">
+            <div class="d-flex align-items-center justify-content-center text-center">
+                <p class="fs-52 fw-600 color-white max-w-832 m-0 p-0">Discover how Stratman <span
+                        class="fs-52 fw-300 color-white max-w-832 m-0 p-0"> AI can supercharge </span><span
+                        class="fs-52 fw-600 color-light-blue max-w-832 m-0 p-0"> your research</span></p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center">
+                <p class="fs-16 fw-400 color-light-white Max-w-625 pt-3 m-0 p-0">Stay informed and ahead of the
+                    curve with the latest trends, tips, and insights in video ad creation and social media marketing.
+                </p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center text-center pt-4">
+                <button
+                    class="d-flex align-items-center justify-content-center text-center fs-16 fw-500 ff_Open_Sans color-white Common-btn">Get&nbsp;Started&nbsp;For&nbsp;Free</button>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="Container_1">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="cursor"><img src="./assets/images/Footer-title-logo.svg" alt="#"
+                            class="object-fit-contain overflow-hidden m-0 p-0"></div>
+                    <p class="fs-16 fw-400 color-black max-w-334 pt-3 m-0 p-0">Stratman AI is dedicated to empowering
+                        investors with advanced AI-driven tools and insights. Our platform provide financial data.
+                    </p>
+                    <p class="fs-16 fw-600 color-black pt-3 m-0 p-0">Follow Us</p>
+                    <div class="d-flex align-items-center pt-3 gap-3">
+                        <a href="#"><img src="./assets/images/Footer-icon-img-1.svg" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img
+                                src="./assets/images/Footer-icon-img-2.svg" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img
+                                src="./assets/images/Footer-icon-img-3.svg" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0"></a>
+                        <a href="https://x.com/?lang=en" target="_blank"><img
+                                src="./assets/images/Footer-icon-img-4.svg" alt="#"
+                                class="object-fit-contain overflow-hidden m-0 p-0"></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-lg-5">
+                            <ul class="m-0 p-0">
+                                <li class="fs-16 fw-600 color-black pb-3 m-0 p-0">Company</li>
+                                <li class="pb-3"><a href="#" class="fs-16 fw-400 color-black m-0 p-0">Home</a></li>
+                                <li class="pb-3"><a href="#" class="fs-16 fw-400 color-black m-0 p-0">Features</a>
+                                </li>
+                                <li class="pb-3"><a href="#" class="fs-16 fw-400 color-black m-0 p-0">Pricing</a>
+                                </li>
+                                <li class="pb-3"><a href="#" class="fs-16 fw-400 color-black m-0 p-0">Blogs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-lg-5">
+                            <ul class="m-0 p-0">
+                                <li class="fs-16 fw-600 color-black pb-3 m-0 p-0">Information</li>
+                                <li class="pb-3"><a href="#"
+                                        class="fs-16 fw-400 color-black m-0 p-0">Terms&nbsp;&&nbsp;Conditions</a>
+                                </li>
+                                <li class="pb-3"><a href="#"
+                                        class="fs-16 fw-400 color-black m-0 p-0">Privacy&nbsp;Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-lg-5">
+                            <ul class="m-0 p-0">
+                                <li class="fs-16 fw-600 color-black pb-3 m-0 p-0">Examples</li>
+                                <li class="pb-3"><a href="#" class="fs-16 fw-400 color-black m-0 p-0">News</a></li>
+                                <li class="pb-3"><a href="#" class="fs-16 fw-400 color-black m-0 p-0">Testimonials</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt-lg-5">
+                            <ul class="m-0 p-0">
+                                <li class="fs-16 fw-600 color-black pb-3 m-0 p-0">Contacts</li>
+                                <div class="d-flex gap-2 pb-3">
+                                    <span><svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M19.0002 10.874C18.7039 10.874 18.4402 10.7674 18.2091 10.554C17.9773 10.3414 17.8428 10.0777 17.8058 9.76291C17.565 8.04069 16.8384 6.57291 15.6258 5.35958C14.4124 4.14699 12.9447 3.42032 11.2224 3.17958C10.9076 3.14254 10.6439 3.01291 10.4313 2.79069C10.218 2.56847 10.1113 2.29995 10.1113 1.98513C10.1113 1.67032 10.2224 1.40625 10.4447 1.19291C10.6669 0.98032 10.9261 0.892542 11.2224 0.929579C13.5558 1.18884 15.5465 2.14254 17.1947 3.79069C18.8428 5.43884 19.7965 7.42958 20.0558 9.76291C20.0928 10.0592 20.0047 10.3185 19.7913 10.5407C19.5787 10.7629 19.315 10.874 19.0002 10.874ZM14.3613 10.874C14.1206 10.874 13.9076 10.7907 13.7224 10.624C13.5373 10.4574 13.3984 10.2351 13.3058 9.95736C13.1576 9.42032 12.8754 8.94328 12.4591 8.52625C12.0421 8.10995 11.565 7.82773 11.028 7.67958C10.7502 7.58699 10.528 7.4481 10.3613 7.26291C10.1947 7.07773 10.1113 6.8555 10.1113 6.59625C10.1113 6.22587 10.241 5.92476 10.5002 5.69291C10.7595 5.4618 11.0465 5.38328 11.3613 5.45736C12.3984 5.6981 13.2921 6.19328 14.0424 6.94291C14.7921 7.69328 15.2873 8.58699 15.528 9.62402C15.6021 9.93884 15.5187 10.2259 15.278 10.4851C15.0373 10.7444 14.7317 10.874 14.3613 10.874ZM18.9447 20.874C16.5558 20.874 14.2273 20.3414 11.9591 19.2762C9.69022 18.2118 7.68096 16.8044 5.93133 15.054C4.18096 13.3044 2.77355 11.2951 1.70911 9.02625C0.643921 6.7581 0.111328 4.42958 0.111328 2.04069C0.111328 1.70736 0.222439 1.42958 0.444661 1.20736C0.666884 0.985134 0.944662 0.874023 1.278 0.874023H5.778C6.03725 0.874023 6.26874 0.957357 6.47244 1.12402C6.67614 1.29069 6.79651 1.50365 6.83355 1.76291L7.55577 5.6518C7.59281 5.91106 7.58837 6.14699 7.54244 6.35958C7.49577 6.57291 7.38911 6.76291 7.22244 6.92958L4.55577 9.6518C5.33355 10.9851 6.30577 12.2351 7.47244 13.4018C8.63911 14.5685 9.92614 15.5777 11.3336 16.4296L13.9447 13.8185C14.1113 13.6518 14.3291 13.5266 14.598 13.4429C14.8661 13.36 15.1298 13.337 15.3891 13.374L19.2224 14.1518C19.4817 14.2074 19.6947 14.3322 19.8613 14.5262C20.028 14.7211 20.1113 14.9481 20.1113 15.2074V19.7074C20.1113 20.0407 20.0002 20.3185 19.778 20.5407C19.5558 20.7629 19.278 20.874 18.9447 20.874Z"
+                                                fill="#0071BC" />
+                                        </svg></span>
+                                    <li><a href="#" class="fs-16 fw-400 color-black m-0 p-0">+1234567890</a></li>
+                                </div>
+                                <div class="d-flex gap-2 pb-3">
+                                    <span><svg width="21" height="18" viewBox="0 0 21 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18.1113 4.65367L10.1113 9.92876L2.11133 4.65367V2.54363L10.1113 7.81872L18.1113 2.54363M18.1113 0.433594H2.11133C1.00133 0.433594 0.111328 1.37256 0.111328 2.54363V15.2039C0.111328 15.7635 0.322042 16.3002 0.697114 16.6959C1.07219 17.0916 1.5809 17.3139 2.11133 17.3139H18.1113C18.6418 17.3139 19.1505 17.0916 19.5255 16.6959C19.9006 16.3002 20.1113 15.7635 20.1113 15.2039V2.54363C20.1113 1.98401 19.9006 1.44732 19.5255 1.05161C19.1505 0.6559 18.6418 0.433594 18.1113 0.433594Z"
+                                                fill="#0071BC" />
+                                        </svg></span>
+                                    <li><a href="#"
+                                            class="fs-16 fw-400 color-black m-0 p-0">123@Stratman&nbsp;AI.Com</a>
+                                    </li>
+                                </div>
+                                <div class="d-flex gap-2 pb-3">
+                                    <span><svg width="16" height="21" viewBox="0 0 16 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.77778 10.874C8.3125 10.874 8.77042 10.678 9.15153 10.286C9.53199 9.89469 9.72222 9.42402 9.72222 8.87402C9.72222 8.32402 9.53199 7.85302 9.15153 7.46102C8.77042 7.06969 8.3125 6.87402 7.77778 6.87402C7.24305 6.87402 6.78546 7.06969 6.405 7.46102C6.02389 7.85302 5.83333 8.32402 5.83333 8.87402C5.83333 9.42402 6.02389 9.89469 6.405 10.286C6.78546 10.678 7.24305 10.874 7.77778 10.874ZM7.77778 20.874C5.16898 18.5907 3.22065 16.4697 1.93278 14.511C0.644259 12.553 0 10.7407 0 9.07402C0 6.57402 0.781991 4.58236 2.34597 3.09902C3.90931 1.61569 5.71991 0.874023 7.77778 0.874023C9.83565 0.874023 11.6462 1.61569 13.2096 3.09902C14.7736 4.58236 15.5556 6.57402 15.5556 9.07402C15.5556 10.7407 14.9116 12.553 13.6237 14.511C12.3352 16.4697 10.3866 18.5907 7.77778 20.874Z"
+                                                fill="#0071BC" />
+                                        </svg></span>
+                                    <li><a href="#" class="fs-16 fw-400 color-black m-0 p-0">123,&nbsp;Dubai(UAE)</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no--wreferrer">
+        </script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
