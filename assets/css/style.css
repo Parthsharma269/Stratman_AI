@@ -566,6 +566,10 @@ nav {
     display: none;
 }
 
+.Footer-border-line {
+    border-top: 1px solid #0000004D;
+}
+
 #myBtn:hover {
     background: linear-gradient(180deg, #58B9F9 0%, #0071BC 100%);
 }
